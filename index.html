@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C's  Delight</title>
+    <link rel="icon" href="img/donut-removebg-preview.png" type="img/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        .center-container {
+            display: flex;
+            height: 40vh;
+
+        }
+
+        .center-container .main-img {
+            height: 65%;
+            width: 26%;
+            justify-content: left;
+            align-items: left;
+            padding-top: 8%;
+            margin-left: 1%;
+            transition: transform 700ms;
+            transition-timing-function:
+                cubic-bezier(.75, -3, .25, 4);
+            filter: drop-shadow(1px 1px 2px);
+        }
+
+
+        .t-container {
+
+            display: flex;
+            padding: 4%;
+        }
+
+        main.row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 50px;
+        }
+
+        .col .contents .box {
+            position: relative;
+            padding: 2px;
+            margin-bottom: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header" id="homeee">
+        <nav>
+            <h1 class="font-semibold">C. delights</h1>
+            <div class="div nav-links " id="navLinks">
+                <i class="fa fa-times left-2" id="fas" onclick="hideMenu()"></i>
+                <ul>
+                    <a href="#home">HOME</a>
+                    <a href="#product">PRODUCT</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="contact.php">MENU</a>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <br>
+    <div class="center-con">
+        <img src="img/donut-removebg-preview.png" class="main-img">
+    </div>
+
+    <div class="center-container" id="homee">
+        <h1>
+            Enjoy Delicious<br><span><i class="fa-solid fa-donut"></i> mini-donut</span>
+            <blockquote>"Enhance your day – treat yourself with a flavorful mini donut."
+            </blockquote>
+            <a href="https://www.facebook.com/profile.php?id=61551414630036" target="_blank"class="button-4" style="color: #ff52A2;">order now<i
+                class="fa-solid fa-cart-plus fa-xm"></i></a>
+        </h1>
+
+    </div>
+
+
+    <div class="test" id="productt">
+        <h1 class="head">MINI DONUTS</h1>
+       
+    </div>
+    <div class="my-container">
+        <div>
+
+
+        </div>
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/3.jpg" id="productImg">
+                <h2><span></span>Classic mini doughnuts</h2>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/1.jpg" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        </i><img src="img/3.jpg" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="img/4.jpg" class="small-img">
+                    </div>
+                </div>
+
+                <p>Php 50.00 | 6pcs</p>
+                <p>Php 95.00 | 12pcs</p><br>
+
+                <a href="https://www.facebook.com/profile.php?id=61551414630036" target="_blank"class="button-3" style="color: #ff52A2;">order now<i
+                    class="fa-solid fa-cart-plus fa-xm"></i></a>
+                
+            </div>
+
+
+            <div class="box">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/image.png"
+                    id="productImgg">
+                <h2><span></span>Messy mini doughnuts</h2>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/54195269110.png" class="small-imgg">
+                    </div>
+
+                    <div class="small-img-col">
+                        </i><img src="img/ttt.png" class="small-imgg">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="img/image (1).png" class="small-imgg">
+                    </div>
+                </div>
+
+                <p>Php 50.00 | 6pcs</p>
+                <p>Php 95.00 | 12pcs</p><br>
+
+                <a href="https://www.facebook.com/profile.php?id=61551414630036" target="_blank"class="button-3" style="color: #ff52A2;">order now<i
+                    class="fa-solid fa-cart-plus fa-xm"></i></a>
+                
+            </div>
+
+
+
+
+            <div class="box">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/j1 (1).jpg"
+                    id="productImgt">
+                <h2><span></span>Overload mini donuts</h2>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/t1.png" class="small-imgt">
+                    </div>
+
+                    <div class="small-img-col">
+                        </i><img src="img/j1 (2).jpg" class="small-imgt">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="img/j1 (1).jpg" class="small-imgt">
+                    </div>
+                </div>
+
+                <p>Php 180.00 | 24pcs</p><br>
+                <a href="https://www.facebook.com/profile.php?id=61551414630036" target="_blank"class="button-3" style="color: #ff52A2;">order now<i
+                    class="fa-solid fa-cart-plus fa-xm"></i></a>
+            </div>
+
+            <div class="box">
+                <i class="fa-regular fa-star fa-beat-fade fa-xl text-pink-500"></i><img src="img/p2.png"
+                    id="productImge">
+                <h2><span></span>mini doughnuts in cup</h2>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/p5.png" class="small-imge">
+                    </div>
+
+                    <div class="small-img-col">
+                        </i><img src="img/p3.png" class="small-imge">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="img/p2.png" class="small-imge">
+                    </div>
+                </div>
+
+                <p>Php 85.00 | 10pcs</p><br>
+
+                <a href="https://www.facebook.com/profile.php?id=61551414630036" target="_blank"class="button-3" style="color: #ff52A2;">order now<i
+                    class="fa-solid fa-cart-plus fa-xm"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+
+
+
+
+    <div class="about" id="background">
+        <h4 id="about">BACKGROUND</h4>
+        <h5>-PROGRESS</h5>
+        <p>I'm glad that you're here. I'm really excited to share our story with you.</p>
+        <div class="image-album">
+            <img src="img/g1 (1).png" class="ge1">
+            <img src="img/g1 (2).png" class="ge2">
+            <img src="img/g1 (3).png" class="ge3">
+            <img src="img/g1 (4).png" class="ge4">
+            <!-- Add more images here -->
+
+        </div>
+
+
+
+
+    </div>
+    <div class="blockquote">
+        <p> The "C's" in <span style="color: #ff52A2; font-weight: 800;">C's Delight</span> stand for my mother's name,
+            Cheryl, and my girlfriend's name, Christina.</p>
+    </div>
+
+    <div class="history">
+        <h1></h1>
+        <p>
+
+
+            We're</span> both College students pursuing our bachelor's degrees in computer science first year college.
+            One
+            day, we realized why not we start a business at the age of 18. So, since we're dedicated and passionate
+            about
+            what we want, we saved money from our allowances every day to have some income to start a small
+            business.<br> <br> We believe that <a
+                href="https://www.linkedin.com/pulse/risk-better-than-regret-wesley-elizabeth-cullen/"
+                style="color: blue; font-style: italic;">"taking a risk is better than regret."</a> When we had the
+            right amount of money to buy
+            equipment (machines) and ingredients, we tried our best to perfect a mini donut mixture.
+            <br><br>after many tries We started selling it to friends
+            and family. I told them to give us feedback to make it even better, and they did. So, we used their advice
+            to improve our mini-donut mixture, until we perfect our mixture So
+            We decided to sell our donuts near San Isidro, Rizal, and we're glad that people not only like it but also
+            appreciate it.<br><br>
+
+
+
+
+
+        </p>
+        <div class="blockquote">
+            <p> Our journey had its highs and lows, but it proved that determination and our mindset can lead to great
+                things. We're excited to see where this adventure takes us next.</p>
+        </div><br><br>
+        <div class="image-album">
+            <img src="img/v1.jpg" class="ge1">
+            <img src="img/v2.jpg" class="ge2">
+            <img src="img/v3.jpg" class="ge3">
+            <img src="img/v4.jpg" class="ge4">
+            <!-- Add more images here -->
+
+        </div><br><br>
+
+
+        <p> Seeing our customers smile while enjoying our mini donuts warmed our hearts. This motivated us to keep
+            trying new flavors and ideas, even when we faced challenges. </p><br>
+        <p style="font-style: italic; margin-top: 5%; padding-bottom: 20%; color: #ff52A2; font-weight: 500;">We
+            sincerely want to thank everyone. We love you!</p>
+    </div>
+
+    <div class="image-album">
+    </div>
+
+    <div class="test" id="aboutt">
+        <h1 class="head">ABOUT US</h1>
+        
+    </div>
+    <div class="aboutt" id="">
+    
+        <p>
+            "C's Delight offers a variety of budget-friendly products. Explore our delightful selection - Buy now..</p>
+        <img src="img/k.png">
+    </div><br><br>
+
+    <div class="blockquote">
+        <p>"We want to take a moment to express our heartfelt thanks to all our wonderful customers. Your support and trust in our products mean the world to us."</p>
+    </div>
+
+    <div class="image-albume">
+        <img src="img/f1 (1).jpg" class="ge1">
+        <img src="img/f1 (10).jpg" class="ge1">
+        <img src="img/f1 (11).jpg" class="ge1">
+        <img src="img/f1 (12).jpg" class="ge1">
+        <!-- Add more images here -->
+
+    </div><br><br>
+ 
+    <div class="image-albume">
+        <img src="img/f1 (13).jpg" class="ge1">
+        <!-- Add more images here -->
+        <img src="img/f1 (14).jpg" class="ge1">
+        <img src="img/f1 (15).jpg" class="ge1">
+        <img src="img/f1 (16).jpg" class="ge1">
+        
+    </div><br><br>
+
+    <div class="image-albume">
+     
+        <img src="img/f1 (17).jpg" class="ge1">
+        <img src="img/f1 (18).jpg" class="ge1">
+        <img src="img/f1 (19).jpg" class="ge1">
+        <img src="img/f1 (2).jpg" class="ge1">
+    </div><br><br>
+
+    <div class="image-albume">
+        <img src="img/f1 (20).jpg" class="ge1">
+        <img src="img/f1 (21).jpg" class="ge1">
+        <img src="img/f1 (22).jpg" class="ge1">
+        <img src="img/f1 (23).jpg" class="ge1">
+      
+    </div><br><br>
+
+
+    <div class="image-albume">
+        <img src="img/f1 (24).jpg" class="ge1">
+        <img src="img/f1 (25).jpg" class="ge1">
+        <img src="img/f1 (3).jpg" class="ge1">
+        <img src="img/f1 (4).jpg" class="ge1">
+      
+    </div><br><br>
+
+    
+    <div class="image-albume">
+        <img src="img/f1 (5).jpg" class="ge1">
+        <img src="img/f1 (6).jpg" class="ge1">
+        <img src="img/f1 (7).jpg" class="ge1">
+        <img src="img/f1 (8).jpg" class="ge1">
+      
+    </div><br><br>
+
+  <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>C's Delight</h4>
+  	 			<ul>
+                    <li><a href="#homeee">home</a></li>
+  	 				<li><a href="#aboutt">about us</a></li>
+  	 				<li><a href="#productt">our services</a></li>
+  	 				<li><a href="#background">History</a></li>
+  	 				
+  	 			</ul>
+  	 		</div>
+  	 	
+  	 	
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://www.facebook.com/profile.php?id=61551414630036"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+ 
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 1600,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.header', { delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.nav', { delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.font-semibold', { delay: 200, origin: 'left' });
+
+        ScrollReveal().reveal('.center-container', { delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.main-img', { delay: 200, origin: 'left' });
+
+        ScrollReveal().reveal('.center-con', { delay: 200, origin: 'top' });
+
+        // Add more elements here, following the pattern above.
+    </script>
+
+    <script>
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function () {
+            productImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function () {
+            productImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function () {
+            productImg.src = smallImg[2].src;
+        }
+
+    </script>
+
+    <script>
+        var productImgg = document.getElementById("productImgg");
+        var smallImgg = document.getElementsByClassName("small-imgg");
+
+        smallImgg[0].onclick = function () {
+            productImgg.src = smallImgg[0].src;
+        }
+        smallImgg[1].onclick = function () {
+            productImgg.src = smallImgg[1].src;
+        }
+        smallImgg[2].onclick = function () {
+            productImgg.src = smallImgg[2].src;
+        }
+
+    </script>
+
+
+    <script>
+        var productImgt = document.getElementById("productImgt");
+        var smallImgt = document.getElementsByClassName("small-imgt");
+
+        smallImgt[0].onclick = function () {
+            productImgt.src = smallImgt[0].src;
+        }
+        smallImgt[1].onclick = function () {
+            productImgt.src = smallImgt[1].src;
+        }
+        smallImgt[2].onclick = function () {
+            productImgt.src = smallImgt[2].src;
+        }
+
+    </script>
+
+
+    <script>
+        var productImge = document.getElementById("productImge");
+        var smallImge = document.getElementsByClassName("small-imge");
+
+        smallImge[0].onclick = function () {
+            productImge.src = smallImge[0].src;
+        }
+        smallImge[1].onclick = function () {
+            productImge.src = smallImge[1].src;
+        }
+        smallImge[2].onclick = function () {
+            productImge.src = smallImge[2].src;
+        }
+
+    </script>
+
+</body>
+
+
+</html>
